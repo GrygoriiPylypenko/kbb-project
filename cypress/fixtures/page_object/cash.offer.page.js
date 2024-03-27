@@ -60,38 +60,31 @@ class CashOfferPage {
   }
 
   selectColor(color) {
-    cy.get(`[data-testid="btn-select-color-${color}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="btn-select-color-${color}"]`).click();
   }
 
   selectFeaturesAndEquipment(packages) {
-    cy.get(`[data-testid="vd-bt-standardequipment-${packages}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="vd-bt-standardequipment-${packages}"]`).click();
   }
 
   selectBrakingAndTraction(braking) {
-    cy.get(`[data-testid="vd-bt-standardequipment-${braking}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="vd-bt-standardequipment-${braking}"]`).click();
   }
 
   selectComfortAndConvenience(comfort) {
-    cy.get(`[data-testid="vd-bt-standardequipment-${comfort}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="vd-bt-standardequipment-${comfort}"]`).click();
   }
 
   selectEntertainmentAndInstrumentation(entertaintment) {
-    cy.get(`[data-testid="vd-bt-standardequipment-${entertaintment}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="vd-bt-standardequipment-${entertaintment}"]`).click();
   }
 
   selectSafetyAndSecurity(safety) {
-    cy.get(`[data-testid="vd-bt-standardequipment-${safety}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="vd-bt-standardequipment-${safety}"]`).click();
   }
 
   selectSeats(seats) {
-    cy.get(`[data-testid="vd-bt-standardequipment-${seats}"]`).trigger('mouseover')
-  .click({ force: true });
+    cy.get(`[data-testid="vd-bt-standardequipment-${seats}"]`).click();
   }
 
   fillWhereToSendForm(firstName, lastName, emailAddress, phoneNumber, zipCode) {
