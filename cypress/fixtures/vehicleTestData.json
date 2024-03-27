@@ -1,0 +1,21 @@
+{
+  "vin": "JTMWF4DV8C5047998",
+  "year": "2012",
+  "make": "Toyota",
+  "model": "RAV4",
+  "trim": "Sport SUV 4D",
+  "mileage": "133586",
+  "engine": "4-Cyl, 2.5 Liter",
+  "transmisson": "Automatic, 4-Spd",
+  "drivetrain": "2WD",
+  "color": "Gray",
+  "package": "premium-pkg",
+  "braking": "hill-descent-control",
+  "comfort": "keyless-start",
+  "entertaintment": "bluetooth-wireless",
+  "safety": "backup-camera",
+  "seats": [
+    "leather",
+    "heated-seats"
+  ]
+}
